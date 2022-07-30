@@ -9,7 +9,7 @@ const SignUp = () => {
     formState: { errors },
   } = useForm();
 
-  const url = 'http://localhost:3001/api/v1/register'
+  const url = 'http://localhost:4000/api/v1/register'
 
   const onSubmit = data => {
     console.log(data);
